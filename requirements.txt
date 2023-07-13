@@ -1,0 +1,13 @@
+joblib==1.2.0
+joblib==1.0.1
+pandas==1.2.4
+scikit_learn==1.2.2
+scikit_learn==0.24.1
+streamlit==1.22.0
+xgboost==1.6.2
+~==blib
+~%blib==1.0.1
+~.blib==1.0.1
+~=blib==1.0.1
+~oblib==1.0.1
+~~blib==1.0.1

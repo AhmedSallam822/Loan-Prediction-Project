@@ -19,8 +19,8 @@ def app():
     Self_Employed = st.selectbox('Self_Employed ?', ['Yes', 'No'])
     ApplicantIncome = st.number_input("Enter Primary Income ", value=0)
     CoapplicantIncome = st.number_input("Enter Secondary Income", value=0)
-    LoanAmount = st.number_input("Enter Loan Amount that wish to be taken", value=0)
-    Loan_Amount_Term = st.number_input("Enter Loan Amount that wish to be taken in millions (Ex: 0-999)", value=0)
+    LoanAmount = st.number_input("Enter Loan Amount that wish to be taken in millions (Ex: 0-999)", value=0)
+    Loan_Amount_Term = st.number_input("How Many Months will you take to return the Loan", value=0)
     Credit_History = st.selectbox('Your History with Banks ?', ['Good', 'Bad'])
     Property_Area = st.radio('Select the Area', ['Urban','Semiurban','Rural'])
     
